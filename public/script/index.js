@@ -59,9 +59,9 @@ document.addEventListener("DOMContentLoaded", async function() {
 		alert("Your browser does not support WebGL");
 	}
 
-	gl.enable(gl.DEPTH_TEST);
-
 	gl.clearColor(1, 1, 1, 1);
+
+	gl.enable(gl.DEPTH_TEST);
 
 	gl.enable(gl.CULL_FACE);
 
