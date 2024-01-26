@@ -4,12 +4,11 @@
 	"main": "public/script/index.js",
 	"scripts": {
 		"build": "sass --update scss:public/style",
-		"start": "http-server .",
+		"start": "nodemon server.js",
 		"dev": "nodemon server.js"
 	},
 	"dependencies": {
 		"express": "^4.18.2",
-		"http-server": "^14.1.1",
 		"mongoose": "^6.8.2",
 		"sass": "^1.57.1"
 	},
