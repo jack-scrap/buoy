@@ -1,7 +1,7 @@
 {
 	"name": "buoy",
 	"version": "0.0.1",
-	"main": "public/script/index.js",
+	"main": "server.js",
 	"scripts": {
 		"build": "sass --update scss:public/style",
 		"start": "node server.js",
