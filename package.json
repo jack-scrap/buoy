@@ -4,8 +4,8 @@
 	"main": "public/script/index.js",
 	"scripts": {
 		"build": "sass --update scss:public/style",
-		"start": "nodemon server.js",
-		"dev": "nodemon server.js"
+		"start": "node server.js",
+		"dev": "node server.js"
 	},
 	"dependencies": {
 		"express": "^4.18.2",
